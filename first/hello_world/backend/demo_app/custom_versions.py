@@ -12,3 +12,6 @@ class DemoViewVersion(DefaultDemoAppVersion):
 
 class AnotherViewVersion(DemoViewVersion):
     allowed_versions = ['v1', 'v2']
+
+class AnotherViewVersionInAdvance(DemoViewVersion):
+    allowed_versions = ['v1', 'v2']
