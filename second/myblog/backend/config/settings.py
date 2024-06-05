@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# Three types of apps which are default, local and third party apps
 DEFAULT_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
